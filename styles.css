@@ -27,7 +27,7 @@ body {
 }
 
 a {
-  color: var(--gold)
+  color: var(--gold);
 }
 
 .back {
@@ -60,4 +60,21 @@ a {
   background-color: transparent;
 }
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.main-header {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
