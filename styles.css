@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Runic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
   --primary: #ff4500;
@@ -10,7 +10,7 @@
 }
 
 *{ 
-  font-family: 'Montserrat', serif;
+  font-family: 'Mulish', serif;
   font-weight: 300;
   box-sizing: border-box;
   padding: 0;
@@ -77,4 +77,11 @@ a {
 .main-header {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.8);
+}
+
+.main-header .logo {
+  font-family: 'Charm', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--primary);
 }
