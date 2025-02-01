@@ -103,3 +103,12 @@ a {
 .main-header ul li a:hover {
   color: var(--primary);
 }
+
+section.latest-movies {
+  padding: 60px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.5)),
+    url('./images/bg.jpg') no-repeat center;
+  background-size: auto;
+}
