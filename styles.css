@@ -1,28 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Runic&display=swap');
 
 :root {
-  --primary: #a52a2a;
-  --secondary: #0e4d64;
-  --muted-gold: #c5a880;
-  --dark: #1f1f1f;
-  --gray: #5a5a5a;
-  --light: #f4eedb;
+  --primary: #ff4500;
+  --secondary: #77c8c8;
+  --gold: #ffd700;
+  --dark: #111;
+  --grey: #5a5a5a;
+  --light: #fffcfa;
 }
 
 *{ 
   font-family: 'Montserrat', serif;
-  font-weight: 300
-}
-
-.logo-text {
-  font-family: 'Noto Sans Runic', serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-  background-color: var(--light);
-  color: var(--dark);
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 16px;
+  overflow-x: hidden;
 }
 
-img {
-  border-radius: 50%;
+a {
+  color: var(--gold)
 }
+
+.back {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+  background-color: var(--primary);
+  color: var(--light);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.btn:disabled {
+  border-color: var(--grey);
+  background-color: var(--grey);
+  color: var(--grey);
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  background-color: transparent;
+}
+
+
