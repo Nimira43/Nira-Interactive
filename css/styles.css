@@ -84,7 +84,8 @@ a {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.main-header .logo a {
+.main-header .logo a,
+.main-footer .logo span {
   font-family: 'Charm', cursive;
   font-weight: 400;
   font-size: 25px;
@@ -107,37 +108,6 @@ a {
 
 .main-header ul li a:hover {
   color: var(--primary);
-}
-
-.popular-title {
-  text-transform: uppercase;
-  color: var(--primary);
-  margin-bottom: 10px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-}
-
-.card {
-  background: var(--primary);
-}
-
-.card img {
-  width: 100%;
-}
-
-.card-body {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  transition: all 0.5s ease-in;
-  background: var(--primary);
 }
 
 section.latest-movies {
@@ -181,6 +151,39 @@ section h2 {
   padding: 10px;
   color: var(--gold);
 }
+
+.popular-title {
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  background: var(--primary);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in;
+  background: var(--primary);
+}
+
+
 
 .search {
   padding: 60px;
@@ -282,4 +285,28 @@ section h2 {
   cursor: pointer;
 }
 
+.main-footer {
+  background: #000;
+  padding: 20px 0;
+  margin-top: 20px;
+}
 
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer .container .social-links {
+  display: flex;
+  font-size: 20px;
+  transition: all 0.5s ease-in;
+}
+
+.main-footer .container .social-links a {
+  margin-left: 10px;
+}
+
+.main-footer .container .social-links a:hover {
+  color: var(--primary);
+}
