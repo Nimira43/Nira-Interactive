@@ -24,7 +24,7 @@
             <a href="/" class="nav-link">Movies</a>
           </li>
           <li>
-            <a href="/shows.html" class="nav-link">TV Shows</a>
+            <a href="./html/shows.html" class="nav-link">TV Shows</a>
           </li>
         </ul>
       </nav>
@@ -35,7 +35,7 @@
     <div class="swiper">
       <div class="swiper-wrapper">
         <!-- <div class="swiper-slide">
-          <a href="movie-details.html?id=1">
+          <a href="./html/movie-details.html?id=1">
             <img src="./images/no-image.jpg" alt="Movie Title">
           </a>
           <h4 class="swiper-rating">
@@ -46,5 +46,24 @@
       </div>
     </div>
   </section>
+  <setion class="search">
+    <div class="container">
+      <div id="alert"></div>
+      <form action="./html/search.html" class="search-form">
+        <div class="search-radio">
+          <input type="radio" id="movie" name="type" value="movie" checked>
+          <label for="movies">Movies</label>
+          <input type="radio" id="tv" name="type" value="tv">
+          <label for="shows">TV Shows</label>
+        </div>
+        <div class="search-leikhus">
+          <input type="text" id="search-term" name="search-term" placeholder="Search...">
+          <button class="btn" type="submit">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </setion>
 </body>
 </html>
