@@ -1,0 +1,53 @@
+Fonts
+For a truly Old Norse feel, consider using fonts that mimic runic scripts or ancient Viking lettering. Here are a few font suggestions:
+
+Elder Futhark: A font that mimics the ancient runic script used by early Germanic tribes. Perfect for headings and titles.
+
+Drakkar: Inspired by the bold, angular shapes of Viking runes, this font is great for a strong, dramatic impact.
+
+Norse: A more modern take on runic scripts, it's readable while still evoking the ancient Norse feel.
+
+Jotun: A font that resembles the rugged and wild nature of the Viking Age. Ideal for headings and accent text.
+
+Color Scheme
+For the color palette, let's draw inspiration from the natural elements and artifacts of the Viking world. Here's a suggested color scheme:
+
+Dark Iron (Primary Color): A deep, almost black gray, reminiscent of iron and steel used in Viking weaponry.
+
+Hex: #1F1F1F
+
+Runestone Gray (Secondary Color): A muted, stone-like gray, evoking the look of ancient runestones.
+
+Hex: #5A5A5A
+
+Shield Red (Accent Color): A bold, deep red, symbolizing the blood and valor of the Viking warriors.
+
+Hex: #A52A2A
+
+Sea Blue (Accent Color): A rich, dark blue, representing the Nordic seas that the Vikings sailed.
+
+Hex: #0E4D64
+
+Gold (Highlight Color): A muted, antique gold, evoking the treasures and artifacts of the Viking Age.
+
+Hex: #C5A880
+
+Parchment (Background Color): A light, parchment-like beige, providing a neutral backdrop for text and images.
+
+Hex: #F4EEDB
+
+Example Usage
+Headings and Titles: Use Elder Futhark or Drakkar with Dark Iron or Shield Red.
+
+Body Text: Use a more readable font like Norse or Jotun in Runestone Gray or Sea Blue.
+
+Accents and Highlights: Incorporate Shield Red and Gold for buttons, icons, and important elements.
+
+Background: Parchment can serve as the main background color, creating a warm, inviting look.
+
+Implementation Tips
+Consistency: Ensure consistent use of fonts and colors throughout the app to maintain a cohesive look.
+
+Readability: While stylized fonts are great for headings, ensure body text remains readable for the best user experience.
+
+Contrast: Use contrasting colors to make important elements stand out and guide the user's eye.
