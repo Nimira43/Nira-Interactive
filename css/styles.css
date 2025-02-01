@@ -144,4 +144,5 @@ section h2 {
 
 .swiper-rating {
   padding: 10px;
+  color: var(--gold);
 }
