@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-  --primary: #ff4500;
-  --secondary: #77c8c8;
+  --main: #ff4500;
   --gold: #ffd700;
   --dark: #111;
   --grey: #5a5a5a;
   --light: #fffcfa;
+  --black: #000;
+  --alert: #ed2424;
+  --success: #20b720;
 }
 
 *,
@@ -42,9 +44,9 @@ a {
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--main);
   border-radius: 3px;
-  background-color: var(--primary);
+  background-color: var(--main);
   color: var(--light);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -89,7 +91,7 @@ a {
   font-family: 'Charm', cursive;
   font-weight: 400;
   font-size: 25px;
-  color: var(--primary);
+  color: var(--main);
 }
 
 .main-header ul {
@@ -107,7 +109,7 @@ a {
 }
 
 .main-header ul li a:hover {
-  color: var(--primary);
+  color: var(--main);
 }
 
 section.latest-movies {
@@ -122,7 +124,7 @@ section h2 {
   margin: 20px 0;
   text-align: center;
   text-transform: uppercase;
-  color: var(--primary)
+  color: var(--main)
 }
 
 .swiper {
@@ -211,8 +213,8 @@ section h2 {
 }
 
 .search-radio input[type="radio"]:checked + label::before {
-  border-color: var(--primary); 
-  background-color: var(--primary);
+  border-color: var(--main); 
+  background-color: var(--main);
 }
 
 .search-flex {
@@ -228,7 +230,7 @@ section h2 {
   height: 50px;
   padding: 10px;
   margin-right: 10px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--main);
   border-radius: 3px;
   background: transparent;
   color: var(--light);
@@ -254,7 +256,7 @@ section h2 {
 
 .popular-title {
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--main);
   margin-bottom: 10px;
 }
 
@@ -265,7 +267,7 @@ section h2 {
 }
 
 .card {
-  background: var(--primary);
+  background: var(--main);
 }
 
 .card img {
@@ -280,7 +282,7 @@ section h2 {
 .card:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in;
-  background: var(--primary);
+  background: var(--main);
 }
 
 .pagination {
@@ -292,22 +294,22 @@ section h2 {
 }
 
 .alert { 
-  background: blue;
+  background: var(--alert);
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 3px;
 }
 
 .alert-success {
-  background: green;
+  background: var(--success);
 }
 
 .alert-error {
-  background: red;
+  background: var(--alert);
 }
 
 .main-footer {
-  background: #000;
+  background: var(--black);
   padding: 20px 0;
   margin-top: 20px;
 }
@@ -329,5 +331,5 @@ section h2 {
 }
 
 .main-footer .container .social-links a:hover {
-  color: var(--primary);
+  color: var(--main);
 }
