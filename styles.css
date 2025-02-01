@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Runic&display=swap');
+
+:root {
+  --primary: #a52a2a;
+  --secondary: #0e4d64;
+  --muted-gold: #c5a880;
+  --dark: #1f1f1f;
+  --gray: #5a5a5a;
+  --light: #f4eedb;
+}
+
+*{ 
+  font-family: 'Montserrat', serif;
+  font-weight: 300
+}
+
+.logo-text {
+  font-family: 'Noto Sans Runic', serif;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+img {
+  border-radius: 50%;
+}
