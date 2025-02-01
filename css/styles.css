@@ -82,7 +82,6 @@ a {
 .main-header {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.8);
-  /* border-bottom: 1px dotted var(--gold);  */
 }
 
 .main-header .logo a {
@@ -108,6 +107,12 @@ a {
 
 .main-header ul li a:hover {
   color: var(--primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
 }
 
 section.latest-movies {
