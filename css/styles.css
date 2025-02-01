@@ -188,7 +188,7 @@ section h2 {
   border: 1px dotted var(--gold);
   border-radius: 3px;
   background: transparent;
-  color: var(--primary);
+  color: var(--light);
 } 
 
 .search .container form input[type='text']::placeholder {
@@ -196,13 +196,15 @@ section h2 {
 }
 
 .search .container form input[type='text']:focus {
-  border-color: var(--primary)
+  outline: none;
 }
 
 .search .container form button {
-  
-}
-
-.search .container form button:hover {
-
+  flex: 1;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  height: 50%;
+  cursor: pointer;
 }
