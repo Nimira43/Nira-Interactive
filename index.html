@@ -46,8 +46,8 @@
       </div>
     </div>
   </section>
-  <setion class="search">
-    <div class="container">
+  <section class="search">
+    <!-- <div class="container">
       <div id="alert"></div>
       <form action="./html/search.html" class="search-form">
         <div class="search-radio">
@@ -63,8 +63,25 @@
           </button>
         </div>
       </form>
+    </div> -->
+    <div class="container">
+      <div id="alert"></div>
+      <form action="./html/search.html" class="search-form">
+        <div class="search-radio">
+          <input type="radio" id="movie" name="type" value="movie" checked>
+          <label for="movie">Movies</label>
+          <input type="radio" id="tv" name="type" value="tv">
+          <label for="tv">TV Shows</label>
+        </div>
+        <div class="search-flex">
+          <input type="text" id="search-term" name="search-term" placeholder="Search...">
+          <button class="btn" type="submit">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </div>
+      </form>
     </div>
-  </setion>
+  </section>
   <div class="container">
     <h2>Popular Movies</h2>
     <div id="popular-movies" class="grid">
