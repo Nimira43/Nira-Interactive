@@ -79,9 +79,27 @@ a {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.main-header .logo {
+.main-header .logo a {
   font-family: 'Charm', cursive;
   font-weight: 400;
   font-size: 25px;
+  color: var(--primary);
+}
+
+.main-header ul {
+  display: flex;
+}
+
+.main-header ul li {
+  margin-left: 20px;
+}
+
+.main-header ul li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.5s ease-in;
+}
+
+.main-header ul li a:hover {
   color: var(--primary);
 }
