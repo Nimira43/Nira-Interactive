@@ -9,12 +9,17 @@
   --light: #fffcfa;
 }
 
-*{ 
-  font-family: 'Mulish', serif;
-  font-weight: 300;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+*{ 
+  font-family: 'Mulish', serif;
+  font-weight: 300;
   text-decoration: none;
   list-style: none;
 }
@@ -209,7 +214,6 @@ section h2 {
   border-color: var(--primary); 
   background-color: var(--primary);
 }
-
 
 .search-flex {
   display: flex;
