@@ -120,7 +120,7 @@ img {
   top: 100%;
   left: 0;
   width: 100%;
-  background: var(--prime-dark);
+  background: var(--dark);
   opacity: 0.95;
   padding: 3rem 2rem;
   text-align: center;
@@ -172,6 +172,18 @@ img {
   font-size: 1.2;
   line-height: 1.6rem;
   color: var(--support-gold);
+}
+
+.hero-image img {
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 
