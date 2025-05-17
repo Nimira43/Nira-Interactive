@@ -92,10 +92,12 @@ img {
   gap: 2rem;
 }
 
-.navbar-menu-link {
+.navbar-menu-link,
+.navbar-mobile-menu-link {
   transition: var(--transition);
 }
 
-.navbar-menu-link:hover {
+.navbar-menu-link:hover,
+.navbar-mobile-menu-link:hover {
   color: var(--support-gold);
 }
