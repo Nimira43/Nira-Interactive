@@ -168,6 +168,7 @@ img {
   text-transform: uppercase;
   line-height: 1.2;
   color: var(--prime);
+  text-align: center;
 }
 
 .hero-description {
@@ -175,6 +176,7 @@ img {
   font-size: 1.2rem;
   line-height: 1.6;
   color: var(--support-gold);
+  text-align: center;
 }
 
 .hero-image img {
