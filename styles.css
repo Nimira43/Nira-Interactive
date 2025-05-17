@@ -85,3 +85,17 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
+.navbar-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-menu-link {
+  transition: var(--transition);
+}
+
+.navbar-menu-link:hover {
+  color: var(--support-gold);
+}
