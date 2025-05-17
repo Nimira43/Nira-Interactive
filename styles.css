@@ -47,7 +47,7 @@ img {
 .btn {
   padding: 0.5rem 2rem;
   color: var(--prime);
-  background-color: var(--dark);
+  background-color: var(--prime-dark);
   border: 1px solid var(--prime);
   border-radius: 3px;
   font-weight: 500;
@@ -58,7 +58,7 @@ img {
 }
 
 .btn:hover {
-  color: var(--dark); 
+  color: var(--prime-dark); 
   background-color: var(--prime);
 }
 
