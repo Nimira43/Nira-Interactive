@@ -149,6 +149,13 @@ img {
   padding: 11.5rem 2rem 8rem
 }
 
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
 
 @media (max-width: 992px) {
 
