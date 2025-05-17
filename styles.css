@@ -1,22 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Imbue:opsz,wght@10..100,100..900&display=swap');
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 * {
- font-family: 'Imbue', serif;
- font-weight: 300; 
+  font-family: 'Imbue', serif;
+  font-weight: 300;
+  list-style: none;
+  text-decoration: none;
 }
 
 :root {
   --prime: #12ea12;
+  --prime-dark: #003400;
   --support-gold: #ffd700; 
   --support-orange: #ff4500; 
   --dark: #111;
-  --light: #fffcfa;
+  --light: #f3fff2;
   --grey-dark: #333;
   --grey-medium: #898989;
   --grey-light: #ccc;
   --grey-light-extra: #eee;
   --transition: all 0.5s ease-in-out;
 }
+
+html, body {
+  background-color: var(--prime-dark);
+  color: var(--light);
+}
+
 
 .logo {
   font-family: 'Bytesized', sans-serif;
