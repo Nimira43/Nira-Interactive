@@ -132,3 +132,11 @@ img {
   gap: 2rem;
   font-size: 1.2rem;
 }
+
+.navbar-mobile-menu-items {
+  transform: translateX(100%);
+}
+
+.navbar-mobile-menu-items.active {
+  transform: translateX(0);
+}
