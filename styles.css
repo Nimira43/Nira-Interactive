@@ -167,6 +167,13 @@ img {
   color: var(--prime);
 }
 
+.hero-description {
+  margin-top: 1.5rem;
+  font-size: 1.2;
+  line-height: 1.6rem;
+  color: var(--support-gold);
+}
+
 
 @media (max-width: 992px) {
 
