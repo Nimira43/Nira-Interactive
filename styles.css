@@ -5,12 +5,25 @@
  font-weight: 300; 
 }
 
+:root {
+  --prime: #12ea12;
+  --support-gold: #ffd700; 
+  --support-orange: #ff4500; 
+  --dark: #111;
+  --light: #fffcfa;
+  --grey-dark: #333;
+  --grey-medium: #898989;
+  --grey-light: #ccc;
+  --grey-light-extra: #eee;
+  --transition: all 0.5s ease-in-out;
+}
+
 .logo {
   font-family: 'Bytesized', sans-serif;
   font-size: 3rem;
   letter-spacing: -5px;
-  color: #12ea12;
-  background-color: #111;
+  color: var(--prime);
+  background-color: var(--dark);
   display: inline-block;
   line-height: 1;
   padding: 0 10px;
