@@ -79,3 +79,9 @@ img {
   background-color: transparent;
   transition: var(--transition);
 }
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
