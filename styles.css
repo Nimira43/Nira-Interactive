@@ -112,3 +112,16 @@ img {
   cursor: pointer;
 }
 
+.navbar-mobile-menu-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--prime-dark);
+  opacity: 0.95;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
