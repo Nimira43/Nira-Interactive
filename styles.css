@@ -156,6 +156,8 @@ img {
   gap: 2rem;
 }
 
+.hero-content {}
+
 
 @media (max-width: 992px) {
 
