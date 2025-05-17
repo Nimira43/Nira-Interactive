@@ -106,3 +106,9 @@ img {
 .navbar-mobile-menu-link:hover {
   color: var(--support-gold);
 }
+
+.navbar-mobile-menu {
+  /* display: none; */
+  cursor: pointer;
+}
+
