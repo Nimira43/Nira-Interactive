@@ -27,6 +27,8 @@
 html, body {
   background-color: var(--prime-dark);
   color: var(--light);
+  line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -111,6 +113,7 @@ img {
   display: none;
   cursor: pointer;
 }
+
 .navbar-mobile-menu-toggle {
   color: var(--prime);
 }
@@ -145,7 +148,11 @@ img {
 }
 
 .hero {
-  background: #000 url('./images/hero.jpg') center center/cover no-repeat;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4))
+     url('./images/hero-bg.jpg') center no-repeat;
+  background-size: cover;
   padding: 11.5rem 2rem 8rem
 }
 
@@ -169,8 +176,8 @@ img {
 
 .hero-description {
   margin-top: 1.5rem;
-  font-size: 1.2;
-  line-height: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
   color: var(--support-gold);
 }
 
