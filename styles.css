@@ -204,6 +204,29 @@ img {
   text-align: center;
 }
 
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.games-card {
+  padding: 0 3rem;
+}
+
+.games-image img {
+  width: 90px;
+  height: 96px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+
+
 @media (max-width: 992px) {
 
 }
