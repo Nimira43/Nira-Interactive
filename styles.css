@@ -202,14 +202,18 @@ img {
 .games {
   padding: 4rem 2rem;
   text-align: center;
+  background-color: var(--dark);
 }
 
 .games-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto auto;
   gap: 2rem;
-  align-items: center;
   justify-content: center;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .games-card {
@@ -217,14 +221,25 @@ img {
 }
 
 .games-image img {
-  width: 90px;
-  height: 96px;
+  width: 130px;
+  height: 130px;
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1.5rem;
 }
 
+.games-card-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: var(--support-gold);
+}
+
+.games-card-text {
+  margin-bottom: 1.5rem;
+  color: var(--prime);
+}
 
 
 @media (max-width: 992px) {
