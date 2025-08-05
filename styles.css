@@ -241,6 +241,11 @@ img {
   color: var(--prime);
 }
 
+.features {
+  background-color: var(--prime);
+  padding: 6rem 2rem;
+}
+
 
 @media (max-width: 992px) {
   .hero {
