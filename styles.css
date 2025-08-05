@@ -262,7 +262,7 @@ img {
 .features-description {
   max-width: 600px;
   margin: 1rem auto 4rem;
-  color: var(--prime-dark);
+  color: var(--dark);
 }
 
 .features-grid {
@@ -277,16 +277,31 @@ img {
   align-items: center;
   justify-content: center;
   gap: 6rem;
-  background-color: red;
+ 
 }
 
 .features-grid-item {
   display: flex;
   align-items: start;
   justify-content: start;
-  text-align: right;
-  gap: 1.5rem
+  text-align: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: var(--dark); 
+  border-radius: 0.5rem;
+  box-shadow:
+  0 2px 4px rgba(255, 255, 255, 0.1), /* top glow */
+  0 6px 12px rgba(0, 0, 0, 0.6);     /* deep shadow */
+
 }
+
+.features-grid-item-text-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: var(--support-gold);
+
+} 
 
 
 @media (max-width: 992px) {
