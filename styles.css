@@ -180,6 +180,8 @@ img {
 }
 
 .hero-image img {
+  background-color: rgba(173, 246, 173, 0.1);
+  border-radius: 50%;
   max-width: 500px;
 }
 
@@ -246,7 +248,7 @@ img {
   padding: 6rem 2rem;
 }
 
-.feature-container {
+.features-container {
   text-align: center;
 }
 
@@ -276,6 +278,7 @@ img {
   justify-content: start;
   text-align: right;
   gap: 1.5rem;
+  background-color: red;
 }
 
 
