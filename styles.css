@@ -250,7 +250,12 @@ img {
   text-align: center;
 }
 
-
+.features-title {
+  font-size: 2.3rem;
+  color: var(--dark);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
 
 
 @media (max-width: 992px) {
