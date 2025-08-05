@@ -246,6 +246,12 @@ img {
   padding: 6rem 2rem;
 }
 
+.feature-container {
+  text-align: center;
+}
+
+
+
 
 @media (max-width: 992px) {
   .hero {
